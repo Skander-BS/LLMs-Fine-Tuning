@@ -1,0 +1,47 @@
+# Ignore macOS system files
+.DS_Store
+
+# Virtual environment
+/venv/
+/env/
+/.qwen_env/
+
+# Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+*.env
+*.json
+
+# Hugging Face and cache
+/huggingface
+/hf_cache
+~/.cache/huggingface/
+~/.local/share/huggingface/
+
+# Pip and dependencies
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore model and large files
+*.ckpt
+*.pt
+*.h5
+*.onnx
+*.tflite
+*.bin
+/models/
+checkpoints/
+
+# VS Code settings
+.vscode/
+
+# Ignore Jupyter notebooks outputs
+*.ipynb_checkpoints/
