@@ -1,6 +1,9 @@
 # Qwen 2.5-1.5B Fine Tuning
 
 This part exposes how to fine tune Qwen model for function calling to optimize agents behaviour using LoRA (PEFT) Fine tuning technique.
+This code example uses : Jofthomas/hermes-function-calling-thinking-V1 dataset optimized for thinking.
+
+You can find my version in here : [skander-bs/Qwen2.5_1.5B_Reasoning](https://huggingface.co/skander-bs/Qwen2.5_1.5B_Reasoning)
 
 ## 1. Create a fresh new environment
 Clone the repository :
